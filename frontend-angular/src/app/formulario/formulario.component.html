@@ -1,0 +1,16 @@
+<h3>Formulário</h3>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label for="name">Name:</label>
+  <input id="name" formControlName="name" type="text" />
+
+  <label for="email">Email:</label>
+  <input id="email" formControlName="email" type="email" />
+
+  <button type="submit">Submit</button>
+</form>
+
+<div *ngIf="submitted" class="submitted-data">
+  <h3>Submitted Data:</h3>
+  <p>Name: {{ form.value.name }}</p>
+  <p>Email: {{ form.value.email }}</p>
+</div>

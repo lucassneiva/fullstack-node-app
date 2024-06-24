@@ -1,0 +1,30 @@
+.data-list {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.data-list div {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db; /* Cor da borda */
+  border-radius: 8px;
+  background-color: #f0f5ff; /* Cor de fundo */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.data-list h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff; /* Cor do título */
+}
+
+.data-list p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #333; /* Cor do texto */
+}

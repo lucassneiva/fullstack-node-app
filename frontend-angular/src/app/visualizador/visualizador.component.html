@@ -1,0 +1,7 @@
+<h3>API de Pokemóns</h3>
+<div *ngIf="data" class="data-list">
+  <div *ngFor="let item of data.results">
+    <h2>{{ item.name }}</h2>
+    <p>{{ item.url }}</p>
+  </div>
+</div>
